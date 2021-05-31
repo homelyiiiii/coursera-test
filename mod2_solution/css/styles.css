@@ -4,7 +4,7 @@ body{
 
 h1{
 	text-align: center;
-	margin-bottom:15px;
+	margin:15px;
 }
 
 *{
@@ -27,15 +27,15 @@ h1{
 
 p{
 	font-size: 125%;
+	font-family: Helvetica;
 	position:absolute;
-	border: 1px solid black;
+	border: 3px solid black;
 	width: min-content;
 	min-width: min-intrinsic;
 	margin:0px;
 	top:-3px;
 	right: -3px;
 	padding:5px;
-	font-family:  Helvetica;
 }
 
 #container{
@@ -52,7 +52,7 @@ div{
 @media	(min-width: 992px){
 	#div1{
 	margin:5px;
-	border: 1px solid black;
+	border: 3px solid black;
 	float:left;
 	width: 32%;
 	padding: 10px ;
@@ -61,22 +61,20 @@ div{
 
 	#div2{
 	margin:5px;
-	border: 1px solid black;
+	border: 3px solid black;
 	float:left;
 	width: 32%;
 	padding: 10px ;
 	padding-top: 41px;
-	
 }
 
 	#div3{
 	margin:5px;
-	border: 1px solid black;
+	border: 3px solid black;
 	float:left;
 	width: 32%;
 	padding: 10px ;
 	padding-top: 41px;
-
 	}
 
 }
@@ -85,7 +83,7 @@ div{
 
 	#div1{
 	margin:5px;
-	border: 1px solid black;
+	border: 3px solid black;
 	float:left;
 	width: 48%;
 	padding: 10px ;
@@ -94,22 +92,20 @@ div{
 
 	#div2{
 	margin:5px;
-	border: 1px solid black;
+	border: 3px solid black;
 	float:left;
 	width: 48%;
 	padding: 10px ;
 	padding-top: 41px;
-	
 }
 
 	#div3{
 	margin:5px;
-	border: 1px solid black;
+	border: 3px solid black;
 	float:left;
 	width: calc(96% + 10px);
 	padding: 10px ;
 	padding-top: 41px;
-
 	}
 
 }
@@ -118,7 +114,7 @@ div{
 @media (max-width: 767px){
 	#div1{
 	margin:5px;
-	border: 1px solid black;
+	border: 3px solid black;
 	float:left;
 	width: 100%;
 	padding: 10px ;
@@ -127,22 +123,20 @@ div{
 
 	#div2{
 	margin:5px;
-	border: 1px solid black;
+	border: 3px solid black;
 	float:left;
 	width: 100%;
 	padding: 10px ;
 	padding-top: 41px;
-	
 }
 
 	#div3{
 	margin:5px;
-	border: 1px solid black;
+	border: 3px solid black;
 	float:left;
 	width: 100%;
 	padding: 10px ;
 	padding-top: 41px;
-
 	}
 
 }
