@@ -1,46 +1,38 @@
-body{
-	background-color: #ffccff;
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
 }
 
-h1{
-	text-align: center;
-	margin:15px;
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 175%;
 }
 
-*{
-	box-sizing: border-box;
-	margin: 0px;
-	padding:0px;
+h2 {
+  border: 1px solid black;
+  color: black;
+  font-size: 125%;
+  position: absolute;
+  margin:0px;
+  top:-1px;
+  right: -1px;
+  padding:5px;
 }
 
-.bgc1{
-	background-color:  #cce6ff;
+p{font-size: 100%; 
+	color: black;
+	position: relative;
+	padding-top: 20px;
 }
 
-.bgc2{
-	background-color:  #ccccff;
-}
-
-.bgc3{
-	background-color:  #ccffcc;
-}
-
-p{
-	font-size: 125%;
-	font-family: Helvetica;
-	position:absolute;
-	border: 3px solid black;
-	width: min-content;
-	min-width: min-intrinsic;
-	margin:0px;
-	top:-3px;
-	right: -3px;
-	padding:5px;
-}
+.class1 {background-color: #D3D3D3;}
+.class2 {background-color: #D8BFD8;}
+.class3 {background-color: #E6E6FA;}
 
 #container{
 	position:relative;
-
 }
 
 div{
@@ -49,94 +41,78 @@ div{
 	padding: 10px;
 }
 
-@media	(min-width: 992px){
-	#div1{
-	margin:5px;
-	border: 3px solid black;
-	float:left;
-	width: 32%;
-	padding: 10px ;
-	padding-top: 41px;
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  #section1 {
+  	margin: 5px;
+    width: 32%;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  #section2 {
+  	margin: 5px;
+    width: 32%;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  #section3 {
+  	margin: 5px;
+    width: 32%;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+  }
 }
 
-	#div2{
-	margin:5px;
-	border: 3px solid black;
-	float:left;
-	width: 32%;
-	padding: 10px ;
-	padding-top: 41px;
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #section1 {
+    margin: 5px;
+    width: 48%;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  #section2 {
+    margin: 5px;
+    width: 48%;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  #section3 {
+  	margin: 5px;
+    width: calc(96% + 10px);
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+  }
 }
 
-	#div3{
-	margin:5px;
-	border: 3px solid black;
-	float:left;
-	width: 32%;
-	padding: 10px ;
-	padding-top: 41px;
-	}
+  /*******Small devices only *******/
+  @media (max-width: 767px) {
+  	#section1 {
+    margin: 5px;
+    width: 100%;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  #section2 {
+    margin: 5px;
+    width: 100%;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  #section3 {
+  	margin: 5px;
+    width: 100%;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+  }
 
-}
-
-@media	(min-width: 768px) and (max-width: 991px){
-
-	#div1{
-	margin:5px;
-	border: 3px solid black;
-	float:left;
-	width: 48%;
-	padding: 10px ;
-	padding-top: 41px;
-}
-
-	#div2{
-	margin:5px;
-	border: 3px solid black;
-	float:left;
-	width: 48%;
-	padding: 10px ;
-	padding-top: 41px;
-}
-
-	#div3{
-	margin:5px;
-	border: 3px solid black;
-	float:left;
-	width: calc(96% + 10px);
-	padding: 10px ;
-	padding-top: 41px;
-	}
-
-}
-
-
-@media (max-width: 767px){
-	#div1{
-	margin:5px;
-	border: 3px solid black;
-	float:left;
-	width: 100%;
-	padding: 10px ;
-	padding-top: 41px;
-}
-
-	#div2{
-	margin:5px;
-	border: 3px solid black;
-	float:left;
-	width: 100%;
-	padding: 10px ;
-	padding-top: 41px;
-}
-
-	#div3{
-	margin:5px;
-	border: 3px solid black;
-	float:left;
-	width: 100%;
-	padding: 10px ;
-	padding-top: 41px;
-	}
-
-}
+ }
